@@ -26,6 +26,11 @@ img {
     justify-content: space-between;
 }
 
+.logo-header {
+    border-radius: 100%;
+    width: 100px;
+}
+
 ul {
     display: flex;
     list-style: none;
@@ -83,6 +88,43 @@ ul {
 .three-container {
     background-color: #e5e7eb;
     font-size: 36px;
-    padding: 24px;
+    padding: 40px;
     margin: 5px;
+}
+
+.menu {
+    border: 5px solid darkblue;
+    border-radius: 5px;
+    width: 250px;
+}
+
+.four-container {
+    background-color: lightblue;
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    flex-direction: column;
+    padding: 10px;
+    margin: 40px
+}
+
+.action {
+    align-self: flex-start;
+    position: relative;
+    top: 35px;
+}
+
+.flex-option {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-2 {
+    padding: 10px;
+    width: 100px;
+    border: 5px solid white;
+    border-radius: 5px;
+    color: #fff;
+    background-color: lightblue;
+    cursor: pointer;
 }
